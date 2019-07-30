@@ -6,6 +6,14 @@ level: 300
 client: .NET Desktop (WPF)
 service: ASP.NET Core Web API
 endpoint: Microsoft identity platform
+page_type: sample
+languages:
+  - csharp  
+products:
+  - azure
+  - azure-active-directory  
+  - aspnet-core
+description: "This sample presents a Web API, protected by Azure AD OAuth Bearer Authentication. A desktop application uses MSAL.NET to obtain an access token. The access token is sent to the ASP.NET Core Web API, which authenticates the user using the ASP.NET JWT Bearer Authentication middleware."
 ---
 # Calling an ASP.NET Core Web API from a WPF application using Microsoft identity platform
 
